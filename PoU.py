@@ -66,8 +66,10 @@ for y in range(threads):
   if choice == "yes":
     th = threading.Thread(target = pler)
     th.start()
+  else:
     th = threading.Thread(target = potong)
     th.start()
     th = threading.Thread(target = memek)
     th.start()
     th = threading.Thread(target = jadah)
+    th.start()
